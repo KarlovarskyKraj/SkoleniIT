@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body{font-family: 'Open Sans', sans-serif; padding:100px;}
+
+a, p, h2{text-decoration:none; }
+
+
+/* PANEL */
+.left-panel .panel .panel-default{border-bottom-left-radius:7px; border-bottom-right-radius:7px; border-bottom:2px #DDD solid; border: none;}
+.left-panel .panel-default .panel-body {padding:0; margin:0;}
+.left-panel .panel-default .panel-body .col-md-12{margin:0; padding:0;}
+.left-panel .panel-default .panel-body .thumbnail{border:none; margin:0; padding:0; position:relative;}
+.left-panel .panel:hover img {opacity:.8;}
+.left-panel .panel-default .panel-body .skoleni{margin:30px;}
+.skoleni .btn-primary{float:right; margin-bottom:30px;}
+.skoleni h2{margin-bottom:30px; color:#333;}
+.skoleni h2:hover{color:#E74C3C; text-decoration:none;}
+.skoleni a:hover{text-decoration:none;}
+.skoleni p{margin-bottom:30px; line-height:25px; font-size:16px;}
+.skoleni .btn-group{float: right;}
+.btn-group a{font-size:26px; color:#CCC;}
+.btn-group .btn-facebook:hover{color:#3B5998;}
+.btn-group .btn-twitter:hover{color:#55ACEE;}
+.btn-group .btn-google:hover{color:#DD4B39;}
+
+#marketing {
+    text-align: center;
+    color: red;
+    background-color: darkgray;
+}
+
+
